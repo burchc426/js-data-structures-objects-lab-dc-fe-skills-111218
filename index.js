@@ -29,10 +29,6 @@ const updatedDriver = {
 }
 
 function destructivelyDeleteFromDriverByKey () {
-  const updatedDriver = {
-   name:'Sam',
-   address:'11 Broadway',
- }
- delete updatedDriver.name
- return updatedDriver
+ delete driver.name
+ return driver
 }

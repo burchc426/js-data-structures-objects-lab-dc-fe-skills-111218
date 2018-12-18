@@ -19,5 +19,9 @@ function deleteFromDriverByKey () {
 }
 
 function destructivelyDeleteFromDriverByKey () {
+  driver[key]=value
+  driver.name='Sam';
+  driver.address= '12 Broadway'
   
+  {return driver}
 }

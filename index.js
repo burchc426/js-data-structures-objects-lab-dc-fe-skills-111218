@@ -33,5 +33,6 @@ function destructivelyDeleteFromDriverByKey () {
    name:'Sam',
    address:'11 Broadway',
  }
- 
+ delete updatedDriver.name
+ return updatedDriver
 }

@@ -21,7 +21,7 @@ function deleteFromDriverByKey () {
  
 const newDriver = Object.assign({}, driver);
  
-delete newDriver.name;
+delete driver.name;
 
 }
 

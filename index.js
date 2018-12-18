@@ -1,10 +1,7 @@
-const driver = { 
-  name = Sam;
-  address = 
-}
+const driver = { }
 
-function updateDriverWithKeyAndValue(driver,name,address) {
-  const newDriver = {...driver}
+function updateDriverWithKeyAndValue(driver,key, value) {
+  
 }
 
 function destructivelyUpdateDriverWithKeyAndValue () {

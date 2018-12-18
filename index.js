@@ -25,6 +25,7 @@ const updatedDriver = {
  }
  const newDriver = Object.assign({}, updatedDriver)
  delete newDriver.name
+ return newDriver
 }
 
 function destructivelyDeleteFromDriverByKey () {

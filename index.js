@@ -5,6 +5,7 @@ function updateDriverWithKeyAndValue(driver,key, value) {
   driver.name='Sam';
   driver.address= '11 Broadway'
   {return driver}
+  let updatedDriver
 }
 
 function destructivelyUpdateDriverWithKeyAndValue (driver,key,value) {
